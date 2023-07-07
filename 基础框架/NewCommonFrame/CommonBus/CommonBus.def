@@ -1,0 +1,12 @@
+LIBRARY	"CommonBus"
+
+
+
+EXPORTS
+    ; 此处可以是显式导出
+	GenerateMainBus @1
+	send2Bus_Target @2
+	register2Bus_Target @3
+	unRegister2Bus_Target @4
+	NewBusConnector   @5
+	RemoveBusConnector  @6

@@ -1,0 +1,27 @@
+; TWSDNetPay_Dll.def : Declares the module parameters for the DLL.
+
+LIBRARY      "TWSDNetPay_Dll"
+
+EXPORTS
+    ; Explicit exports can go here
+	IF_InitEnvironment		@1
+	IF_InitEnvironment2		@14
+	IF_Destroy				@2
+	IF_GetLastErrorDesc		@3
+	IF_StartGetAccountInfo	@4
+	IF_StopGetAccountInfo	@5
+	IF_GetAccountInfo		@6
+	IF_DebitMoney			@7
+	IF_DebitCancel			@8
+	IF_GetDebitResult		@9
+	IF_SetMMI				@10
+	IF_GetParam				@11
+	IF_GetComponentStatus	@12
+	IF_TranslateData		@13
+	IF_InitEnvironment3		@15
+	;getInstance             @16
+	;deleteInstance          @17
+	IF_AgencyDebitQuery     @18
+	IF_TransferImage        @19
+	
+	IF_CompletionTicketNo   @20

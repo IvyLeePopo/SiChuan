@@ -1,0 +1,11 @@
+{
+	"download":"./TWUpdate",
+	"loadLib":"./",
+	"lib":"./",
+	"log":"./TWSDNetPayLog",
+	"etc":"./etc",
+	"netPayPath":"TWSDNetPay.dll"		
+}
+
+
+

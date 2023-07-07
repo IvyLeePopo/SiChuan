@@ -1,0 +1,26 @@
+; proj_tr.def : 声明 DLL 的模块参数。
+
+LIBRARY      "HTTWSDDevice"
+
+EXPORTS
+    ; 此处可以是显式导出
+	IF_InitDev @1
+    IF_Destroy @2
+    IF_InitPara @3
+    IF_SetDevice @4
+    IF_QueryDevice @5
+    IF_StartDebit @6
+    IF_StartDebitCancle @7
+    IF_GetLastError @8
+    IF_GetLastResult @9
+    IF_BreakDebit @10
+    IF_CheckDeviceStatus @11
+    IF_AgencyDebitQuery @12
+    IF_TransferImage   @13
+	IF_TransTickNo        @14
+	GreenChannelTest      @15
+	IF_ExcuteComCommond   @16
+	IF_TakeComFeedbackCommond @17
+	IF_TerminalSystemVersionStatus @18
+	IF_ExchangeTerminalSystem   @19
+  

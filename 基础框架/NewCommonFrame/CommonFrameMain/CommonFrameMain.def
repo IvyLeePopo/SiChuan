@@ -1,0 +1,36 @@
+LIBRARY	"CommonFrameMain"
+
+EXPORTS
+    ; 此处可以是显式导出
+    IF_InitEnvironment		@1
+	IF_Destroy				@2
+	IF_GetLastErrorDesc		@3
+	IF_StartGetAccountInfo	@4
+	IF_StopGetAccountInfo	@5
+	IF_GetAccountInfo		@6
+	IF_DebitMoney			@7
+	IF_DebitCancel			@8
+	IF_GetDebitResult		@9
+	IF_SetMMI				@10
+	IF_GetParam				@11
+	IF_GetComponentStatus	@12
+	IF_TranslateData		@13
+	IF_InitEnvironment2		@14
+	IF_InitEnvironment3		@15
+	IF_TransferImage		@16
+	IF_QueryAgentDebit		@17
+	
+	IF_ITCEntryTrade        @18
+	IF_ITCExitPreTrade      @19
+	IF_ITCExitTrade         @20
+	IF_CompletionTicketNo   @21
+	
+	IF_SetVehicleStatus     @22
+	IF_PrinterTicket        @23
+	IF_ReadCardInfo         @24
+	IF_WriteCardInfo        @25
+	
+	
+
+	
+	

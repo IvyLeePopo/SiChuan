@@ -1,0 +1,13 @@
+#ifndef TWSDNETPAY_DLL_GLOBAL_H
+#define TWSDNETPAY_DLL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+//调试用
+#if defined(TWSDNETPAY_DLL_LIBRARY)
+#  define TWSDNETPAY_DLLSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define TWSDNETPAY_DLLSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // TWSDNETPAY_DLL_GLOBAL_H

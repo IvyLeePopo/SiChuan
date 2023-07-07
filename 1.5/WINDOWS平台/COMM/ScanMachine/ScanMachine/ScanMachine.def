@@ -1,0 +1,26 @@
+; ScanMachine.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ScanMachine"
+
+EXPORTS
+    ; Explicit exports can go here
+    IF_InitDev				@1;
+    IF_Destroy				@2;
+    IF_GetLastErrorDesc		@3;
+    IF_StartGetData			@4;
+    IF_StopGetData			@5;
+    IF_CheckDeviceStatus	@6;
+    IF_GetData				@7;
+    IF_Authority			@8;
+    IF_GetDeviceFirewareVer	@9;
+    IF_GetDisplayContext	@10;
+    IF_SetDisplayContext	@11;
+    IF_IssuedData			@12;
+    IF_SetParam				@13;
+    IF_SetIOState			@14;
+    IF_IsUpgrading          @15;
+    IF_UpgradeFirware       @16;
+    IF_RealDeviceFirmwareVer @17;
+	IF_RealSlaveDeviceFirmwareVer @18;
+	IF_TerminalSystemVersionStatus @19;
+	IF_ExchangeTerminalSystem      @20;

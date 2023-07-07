@@ -1,0 +1,86 @@
+
+
+
+
+2017-11-30 16:55:05.129:日志系统内部信息：日志系统启动
+2017-11-30 16:55:05.129:[Update Module]System IP:192.168.101.241
+2017-11-30 16:55:05.129:[Update Module]System Port:8090
+2017-11-30 16:55:05.130:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2017-11-30 16:55:05.130:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2017-11-30 16:55:05.130:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2017-11-30 16:56:06.235:[Update Module]Check update
+2017-11-30 16:56:06.239:[Update Module]New post start
+2017-11-30 16:56:06.239:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2017-11-30 16:56:06.239:[Update Module]Data:{"aes":"","deviceNo":"111","deviceType":"TR200","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.6.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.0.8.1","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.0.3","infoVersion":"","type":2}],"laneId":"10","md5":"123fsdfsd","packageType":4,"provinceId":31,"queryTime":"2017-11-30 16:56:06.1","roadId":"4","stationId":"31121","time":"2017-11-30 16:56:06.1","version":"1.0"}
+
+2017-11-30 16:56:06.338:[Update Module]Parse update string failed!
+
+
+
+
+2017-11-30 16:57:31.532:日志系统内部信息：日志系统启动
+2017-11-30 16:57:31.533:[Update Module]System IP:192.168.101.241
+2017-11-30 16:57:31.533:[Update Module]System Port:8090
+2017-11-30 16:57:31.533:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2017-11-30 16:57:31.533:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2017-11-30 16:57:31.533:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2017-11-30 16:57:46.751:[Update Module]开始退出业务主线程
+2017-11-30 16:57:46.751:停止更新线程
+2017-11-30 16:57:59.861:exit onidle update
+2017-11-30 16:57:59.911:[Update Module]退出业务主线程完毕
+2017-11-30 16:57:59.992:日志系统内部信息：工作线程结束.
+
+
+
+
+2017-11-30 16:58:02.028:日志系统内部信息：日志系统启动
+2017-11-30 16:58:02.029:[Update Module]System IP:192.168.101.241
+2017-11-30 16:58:02.029:[Update Module]System Port:8090
+2017-11-30 16:58:02.030:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2017-11-30 16:58:02.030:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2017-11-30 16:58:02.030:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2017-11-30 16:58:17.147:[Update Module]开始退出业务主线程
+2017-11-30 16:58:17.147:停止更新线程
+2017-11-30 16:58:26.552:exit onidle update
+2017-11-30 16:58:26.601:[Update Module]退出业务主线程完毕
+2017-11-30 16:58:26.655:日志系统内部信息：工作线程结束.
+
+
+
+
+2017-11-30 16:58:28.676:日志系统内部信息：日志系统启动
+2017-11-30 16:58:28.677:[Update Module]System IP:192.168.101.241
+2017-11-30 16:58:28.678:[Update Module]System Port:8090
+2017-11-30 16:58:28.678:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2017-11-30 16:58:28.678:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2017-11-30 16:58:28.678:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2017-11-30 16:58:43.520:[Update Module]开始退出业务主线程
+2017-11-30 16:58:43.520:停止更新线程
+2017-11-30 16:58:45.525:exit onidle update
+2017-11-30 16:58:45.575:[Update Module]退出业务主线程完毕
+2017-11-30 16:58:45.622:日志系统内部信息：工作线程结束.
+
+
+
+
+2017-11-30 16:58:47.573:日志系统内部信息：日志系统启动
+2017-11-30 16:58:47.574:[Update Module]System IP:192.168.101.241
+2017-11-30 16:58:47.575:[Update Module]System Port:8090
+2017-11-30 16:58:47.575:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2017-11-30 16:58:47.575:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2017-11-30 16:58:47.575:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2017-11-30 16:59:03.195:[Update Module]开始退出业务主线程
+2017-11-30 16:59:03.195:停止更新线程
+2017-11-30 16:59:07.212:exit onidle update
+2017-11-30 16:59:07.262:[Update Module]退出业务主线程完毕
+2017-11-30 16:59:07.296:日志系统内部信息：工作线程结束.
+
+
+
+
+2017-11-30 16:59:09.279:日志系统内部信息：日志系统启动
+2017-11-30 16:59:09.279:[Update Module]System IP:192.168.101.241
+2017-11-30 16:59:09.281:[Update Module]System Port:8090
+2017-11-30 16:59:09.281:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2017-11-30 16:59:09.281:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2017-11-30 16:59:09.281:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
